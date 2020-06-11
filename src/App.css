@@ -18,6 +18,7 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
+
 .container {
   margin: 30px auto;
   width: 350px;
@@ -148,6 +149,7 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
 @media (max-width: 320px) {
   .container {
     width: 300px;

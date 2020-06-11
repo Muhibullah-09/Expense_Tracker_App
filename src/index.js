@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App'
-
+import App from './App';
+import Head from './Head';
 ReactDOM.render(
-  <React.StrictMode>
-    {/*<footer className='kamali'><a href="https://www.facebook.com/muheeb.kamali/" target="_blank">KamaliDesignX</a></footer>*/}
+    <>
+    <Head/>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    </> , document.getElementById('root'));
